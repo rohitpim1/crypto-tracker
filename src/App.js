@@ -24,7 +24,7 @@ function App() {
         <Header />
         <Suspense fallback={<LinearProgress style={{ backgroundColor: "gold" }} />}>
         <Routes>
-        <Route path="/" element={<Homepage/>} exact />
+        <Route path="/crypto-tracker" element={<Homepage/>} exact />
         <Route path="/coins/:id" element={<CoinPage/>} exact />
         </Routes>
         </Suspense>
